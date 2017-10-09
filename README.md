@@ -8,6 +8,7 @@ This is based on the old `wal` by Dylan Araps. All credit to him. `wal` generate
 I've edited it to write the generated colorscheme to the `i3`,`sway`, `termite` and Xresources config files and the following scripts in order to store them permanently.
 The color configuration sections in the scripts and config files are currently emtpy. Execute the script in the follwing format
 `wal.edit.sh -i Your/Wallpaper/Here` to fill these sections.
+
 In the future, this functionality should be seperated from `wal` itself.
 
 ## config (i3 / sway)
