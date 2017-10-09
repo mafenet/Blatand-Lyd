@@ -5,7 +5,9 @@ These are my configuration files and scripts I use with my i3 / sway desktop.
 ## wal.edit.sh
 
 This is based on the old `wal` by Dylan Araps. All credit to him. `wal` generated color schemes for your desktop from wallpapers by using `imagemagick`.
-I've edited it to write the generated colorscheme to the `i3`,`sway`, `termite` and Xresources config files and the following scripts in order to store them permanently. 
+I've edited it to write the generated colorscheme to the `i3`,`sway`, `termite` and Xresources config files and the following scripts in order to store them permanently.
+The color configuration sections in the scripts and config files are currently emtpy. Execute the script in the follwing format
+`wal.edit.sh -i Your/Wallpaper/Here` to fill these sections.
 In the future, this functionality should be seperated from `wal` itself.
 
 ## config (i3 / sway)
