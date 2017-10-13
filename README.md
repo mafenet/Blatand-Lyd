@@ -14,6 +14,7 @@ In the future, this functionality should be seperated from `wal` itself.
 ## config (i3 / sway)
 
 My config file has shortcuts for my scripts for bluetooth, volume, brightness, `i3lock` / `swaylock` and `dmenu` built in.
+`nitrogen` is used to set the wallpaer in i3.
 
 ## bluetooth.sh
 
@@ -30,7 +31,7 @@ This script controls the volume using `pactl` with the default sink or the sink 
 
 ## lock.sh
 
-Locks the screen using `i3lock` or `swaylock` (depending on which WM you chose). It uses some of the colors generated `ẁal`.
+Locks the screen using `i3lock-color` or `swaylock` (depending on which WM you chose). It uses some of the colors generated `ẁal`. Decides which locker to user by checking the $DESKTOP_SESSION variable
 
 ## dmenu.sh
 
