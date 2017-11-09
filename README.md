@@ -12,7 +12,10 @@ Options: `--up` `--down` `--toggle`
 
 
 ## Dependencies
+`bash`
+
 `bluez` with bluetoothctl
 
-
 `pulseaudio` `pulseaudio-bluetooth`
+
+`awk`
